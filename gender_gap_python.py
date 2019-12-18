@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-women_degrees = pd.read_csv('data/gender_gap_study.csv')
+women_degrees = pd.read_csv('gender_gap_study.csv')
 women_degrees.head()
 
 %matplotlib inline
